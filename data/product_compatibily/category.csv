@@ -1,0 +1,227 @@
+product_id,category_id,subcategory_id,category_name,subcategory_name
+P00002,C113,SC1131,Dụng cụ điện tử,Mỏ hàn
+P00003,C113,SC1131,Dụng cụ điện tử,Mỏ hàn
+P00004,C113,SC1139,Dụng cụ điện tử,Máy khò nhiệt
+P00007,C108,SC1088,Nguồn điện & Pin,Tụ siêu
+P00008,C109,SC1093,Linh kiện quang điện tử,LED Matrix
+P00011,C105,SC1060,Công cụ phát triển,Board thí nghiệm
+P00013,C109,SC1092,Linh kiện quang điện tử,LED RGB
+P00014,C106,SC1064,Thiết bị truyền thông,Module RF
+P00018,C105,SC1056,Công cụ phát triển,Máy hiện sóng
+P00019,C106,SC1066,Thiết bị truyền thông,Module NFC/RFID
+P00021,C108,SC1085,Nguồn điện & Pin,Bộ sạc pin
+P00022,C105,SC1052,Công cụ phát triển,Máy lập trình
+P00026,C107,SC1072,Mạch điện & PCB,Vật liệu làm PCB
+P00030,C102,SC1025,Linh kiện thụ động,Crystal & Oscillator
+P00031,C107,SC1075,Mạch điện & PCB,Jumper & Connector
+P00032,C111,SC1120,Thiết bị âm thanh,Còi & Buzzer
+P00035,C102,SC1025,Linh kiện thụ động,Crystal & Oscillator
+P00036,C112,SC1129,Thiết bị IoT,Bộ điều khiển nhiệt độ
+P00039,C107,SC1074,Mạch điện & PCB,Board hàn thử
+P00042,C101,SC1011,Linh kiện vi xử lý,Vi điều khiển Arduino
+P00045,C110,SC1104,Linh kiện cơ điện tử,Driver động cơ
+P00047,C101,SC1013,Linh kiện vi xử lý,Raspberry Pi
+P00050,C101,SC1014,Linh kiện vi xử lý,STM32
+P00052,C107,SC1080,Mạch điện & PCB,Vỏ bảo vệ mạch
+P00053,C102,SC1022,Linh kiện thụ động,Tụ điện
+P00055,C107,SC1076,Mạch điện & PCB,Ốc vít & Spacer
+P00060,C106,SC1064,Thiết bị truyền thông,Module RF
+P00065,C105,SC1055,Công cụ phát triển,Máy đo đa năng
+P00066,C102,SC1021,Linh kiện thụ động,Điện trở
+P00068,C110,SC1103,Linh kiện cơ điện tử,Động cơ bước
+P00069,C110,SC1101,Linh kiện cơ điện tử,Động cơ DC
+P00070,C113,SC1135,Dụng cụ điện tử,Dao cắt
+P00071,C107,SC1071,Mạch điện & PCB,Board mạch in PCB
+P00072,C106,SC1065,Thiết bị truyền thông,Module GSM/GPRS
+P00078,C103,SC1034,Linh kiện chủ động,Thyristor
+P00080,C108,SC1084,Nguồn điện & Pin,Bộ chuyển đổi DC-DC
+P00081,C111,SC1115,Thiết bị âm thanh,IC xử lý âm thanh
+P00083,C105,SC1052,Công cụ phát triển,Máy lập trình
+P00085,C112,SC1126,Thiết bị IoT,Công tắc thông minh
+P00087,C109,SC1096,Linh kiện quang điện tử,Phototransistor
+P00093,C112,SC1130,Thiết bị IoT,Bộ thu thập dữ liệu IoT
+P00096,C104,SC1043,Cảm biến & Đo lường,Cảm biến chuyển động
+P00099,C109,SC1096,Linh kiện quang điện tử,Phototransistor
+P00101,C106,SC1065,Thiết bị truyền thông,Module GSM/GPRS
+P00102,C107,SC1072,Mạch điện & PCB,Vật liệu làm PCB
+P00104,C111,SC1114,Thiết bị âm thanh,Module phát âm
+P00105,C109,SC1098,Linh kiện quang điện tử,Opto-isolator
+P00106,C108,SC1087,Nguồn điện & Pin,Pin năng lượng mặt trời
+P00109,C101,SC1012,Linh kiện vi xử lý,Vi điều khiển ESP
+P00111,C105,SC1055,Công cụ phát triển,Máy đo đa năng
+P00114,C104,SC1046,Cảm biến & Đo lường,Module GPS
+P00115,C106,SC1066,Thiết bị truyền thông,Module NFC/RFID
+P00116,C105,SC1053,Công cụ phát triển,Công cụ debug
+P00117,C102,SC1026,Linh kiện thụ động,Cầu chì
+P00118,C111,SC1114,Thiết bị âm thanh,Module phát âm
+P00120,C110,SC1110,Linh kiện cơ điện tử,Động cơ rung
+P00122,C103,SC1035,Linh kiện chủ động,Mosfet
+P00125,C112,SC1125,Thiết bị IoT,Khóa thông minh
+P00126,C103,SC1039,Linh kiện chủ động,Bộ chuyển đổi ADC/DAC
+P00127,C111,SC1111,Thiết bị âm thanh,Loa
+P00131,C108,SC1086,Nguồn điện & Pin,Bộ điều khiển nguồn
+P00137,C108,SC1083,Nguồn điện & Pin,Bộ nguồn điều chỉnh
+P00141,C107,SC1071,Mạch điện & PCB,Board mạch in PCB
+P00142,C110,SC1105,Linh kiện cơ điện tử,Rơ-le
+P00143,C112,SC1123,Thiết bị IoT,Gateway IoT
+P00144,C103,SC1032,Linh kiện chủ động,Transistor
+P00147,C110,SC1106,Linh kiện cơ điện tử,Solenoid
+P00149,C106,SC1061,Thiết bị truyền thông,Module WiFi
+P00150,C102,SC1024,Linh kiện thụ động,Biến trở
+P00157,C111,SC1115,Thiết bị âm thanh,IC xử lý âm thanh
+P00158,C110,SC1103,Linh kiện cơ điện tử,Động cơ bước
+P00159,C113,SC1132,Dụng cụ điện tử,Thiếc hàn
+P00160,C110,SC1101,Linh kiện cơ điện tử,Động cơ DC
+P00164,C108,SC1081,Nguồn điện & Pin,Adapter nguồn
+P00166,C107,SC1077,Mạch điện & PCB,Socket IC
+P00172,C111,SC1116,Thiết bị âm thanh,Bộ lọc âm thanh
+P00174,C103,SC1034,Linh kiện chủ động,Thyristor
+P00176,C104,SC1049,Cảm biến & Đo lường,Cảm biến độ ẩm
+P00177,C104,SC1042,Cảm biến & Đo lường,Cảm biến áp suất
+P00180,C113,SC1140,Dụng cụ điện tử,Bộ vít chuyên dụng
+P00182,C110,SC1105,Linh kiện cơ điện tử,Rơ-le
+P00185,C112,SC1121,Thiết bị IoT,Bộ điều khiển thông minh
+P00186,C111,SC1119,Thiết bị âm thanh,Phản hồi xúc giác
+P00187,C111,SC1111,Thiết bị âm thanh,Loa
+P00188,C106,SC1063,Thiết bị truyền thông,Module Zigbee
+P00189,C105,SC1058,Công cụ phát triển,Môi trường mô phỏng
+P00192,C111,SC1113,Thiết bị âm thanh,Bộ khuếch đại âm thanh
+P00193,C111,SC1112,Thiết bị âm thanh,Micro
+P00194,C109,SC1095,Linh kiện quang điện tử,Màn hình OLED
+P00195,C108,SC1090,Nguồn điện & Pin,Bộ bảo vệ pin
+P00200,C109,SC1094,Linh kiện quang điện tử,Màn hình LCD
+P00202,C112,SC1124,Thiết bị IoT,Module giám sát
+P00203,C110,SC1102,Linh kiện cơ điện tử,Động cơ servo
+P00205,C113,SC1133,Dụng cụ điện tử,Nhíp
+P00206,C110,SC1104,Linh kiện cơ điện tử,Driver động cơ
+P00209,C107,SC1073,Mạch điện & PCB,Thiết bị khắc PCB
+P00213,C106,SC1062,Thiết bị truyền thông,Module Bluetooth
+P00214,C105,SC1053,Công cụ phát triển,Công cụ debug
+P00221,C112,SC1126,Thiết bị IoT,Công tắc thông minh
+P00222,C101,SC1012,Linh kiện vi xử lý,Vi điều khiển ESP
+P00224,C101,SC1020,Linh kiện vi xử lý,Module AI/ML
+P00225,C106,SC1068,Thiết bị truyền thông,Module Ethernet
+P00226,C112,SC1124,Thiết bị IoT,Module giám sát
+P00228,C103,SC1038,Linh kiện chủ động,Bộ so sánh
+P00230,C112,SC1128,Thiết bị IoT,Bộ điều khiển đèn thông minh
+P00231,C114,SC1141,Phụ kiện robot,Khung robot
+P00236,C112,SC1122,Thiết bị IoT,Cảm biến thông minh
+P00238,C110,SC1101,Linh kiện cơ điện tử,Động cơ DC
+P00239,C112,SC1123,Thiết bị IoT,Gateway IoT
+P00247,C101,SC1018,Linh kiện vi xử lý,Vi xử lý Intel
+P00252,C110,SC1102,Linh kiện cơ điện tử,Động cơ servo
+P00254,C102,SC1022,Linh kiện thụ động,Tụ điện
+P00255,C102,SC1026,Linh kiện thụ động,Cầu chì
+P00257,C112,SC1127,Thiết bị IoT,Module điều khiển qua Internet
+P00259,C108,SC1084,Nguồn điện & Pin,Bộ chuyển đổi DC-DC
+P00260,C110,SC1109,Linh kiện cơ điện tử,Khớp nối
+P00261,C101,SC1013,Linh kiện vi xử lý,Raspberry Pi
+P00262,C103,SC1033,Linh kiện chủ động,IC tích hợp
+P00269,C104,SC1045,Cảm biến & Đo lường,Cảm biến từ trường
+P00278,C113,SC1136,Dụng cụ điện tử,Kính lúp
+P00281,C113,SC1134,Dụng cụ điện tử,Kìm
+P00282,C113,SC1136,Dụng cụ điện tử,Kính lúp
+P00283,C109,SC1091,Linh kiện quang điện tử,LED
+P00285,C104,SC1046,Cảm biến & Đo lường,Module GPS
+P00286,C112,SC1121,Thiết bị IoT,Bộ điều khiển thông minh
+P00287,C110,SC1107,Linh kiện cơ điện tử,Bánh răng & Pulley
+P00290,C104,SC1041,Cảm biến & Đo lường,Cảm biến nhiệt độ
+P00292,C111,SC1113,Thiết bị âm thanh,Bộ khuếch đại âm thanh
+P00293,C108,SC1086,Nguồn điện & Pin,Bộ điều khiển nguồn
+P00294,C101,SC1015,Linh kiện vi xử lý,Linh kiện FPGA
+P00296,C102,SC1021,Linh kiện thụ động,Điện trở
+P00297,C105,SC1057,Công cụ phát triển,Bộ tạo xung
+P00298,C101,SC1016,Linh kiện vi xử lý,Vi xử lý ARM
+P00299,C102,SC1028,Linh kiện thụ động,Bộ lọc EMI/RFI
+P00300,C113,SC1131,Dụng cụ điện tử,Mỏ hàn
+P00301,C103,SC1037,Linh kiện chủ động,Bộ khuếch đại
+P00303,C107,SC1073,Mạch điện & PCB,Thiết bị khắc PCB
+P00305,C112,SC1121,Thiết bị IoT,Bộ điều khiển thông minh
+P00306,C103,SC1032,Linh kiện chủ động,Transistor
+P00311,C107,SC1071,Mạch điện & PCB,Board mạch in PCB
+P00314,C109,SC1097,Linh kiện quang điện tử,Photoresistor (LDR)
+P00316,C102,SC1030,Linh kiện thụ động,Mạng điện trở
+P00318,C107,SC1079,Mạch điện & PCB,Dây cáp
+P00322,C109,SC1095,Linh kiện quang điện tử,Màn hình OLED
+P00323,C109,SC1094,Linh kiện quang điện tử,Màn hình LCD
+P00324,C107,SC1078,Mạch điện & PCB,Header pin
+P00327,C102,SC1023,Linh kiện thụ động,Cuộn cảm
+P00328,C101,SC1017,Linh kiện vi xử lý,Vi điều khiển PIC
+P00330,C102,SC1021,Linh kiện thụ động,Điện trở
+P00337,C101,SC1019,Linh kiện vi xử lý,Module DSP
+P00338,C109,SC1092,Linh kiện quang điện tử,LED RGB
+P00341,C106,SC1067,Thiết bị truyền thông,Module LoRa
+P00343,C113,SC1137,Dụng cụ điện tử,Ống hút thiếc
+P00348,C103,SC1033,Linh kiện chủ động,IC tích hợp
+P00351,C101,SC1016,Linh kiện vi xử lý,Vi xử lý ARM
+P00352,C103,SC1036,Linh kiện chủ động,IGBT
+P00355,C102,SC1027,Linh kiện thụ động,Biến áp
+P00356,C104,SC1041,Cảm biến & Đo lường,Cảm biến nhiệt độ
+P00357,C108,SC1089,Nguồn điện & Pin,Giá đỡ pin
+P00358,C103,SC1036,Linh kiện chủ động,IGBT
+P00360,C101,SC1011,Linh kiện vi xử lý,Vi điều khiển Arduino
+P00363,C101,SC1011,Linh kiện vi xử lý,Vi điều khiển Arduino
+P00364,C109,SC1091,Linh kiện quang điện tử,LED
+P00368,C104,SC1042,Cảm biến & Đo lường,Cảm biến áp suất
+P00370,C113,SC1135,Dụng cụ điện tử,Dao cắt
+P00372,C105,SC1054,Công cụ phát triển,Logic analyzer
+P00374,C106,SC1061,Thiết bị truyền thông,Module WiFi
+P00375,C108,SC1081,Nguồn điện & Pin,Adapter nguồn
+P00377,C110,SC1106,Linh kiện cơ điện tử,Solenoid
+P00380,C108,SC1083,Nguồn điện & Pin,Bộ nguồn điều chỉnh
+P00381,C109,SC1091,Linh kiện quang điện tử,LED
+P00383,C113,SC1134,Dụng cụ điện tử,Kìm
+P00384,C101,SC1015,Linh kiện vi xử lý,Linh kiện FPGA
+P00386,C107,SC1074,Mạch điện & PCB,Board hàn thử
+P00396,C105,SC1051,Công cụ phát triển,Kit phát triển
+P00400,C112,SC1125,Thiết bị IoT,Khóa thông minh
+P00403,C102,SC1029,Linh kiện thụ động,Bộ suy giảm
+P00407,C111,SC1118,Thiết bị âm thanh,Module Bluetooth Audio
+P00408,C109,SC1093,Linh kiện quang điện tử,LED Matrix
+P00409,C113,SC1138,Dụng cụ điện tử,Paste hàn
+P00410,C107,SC1075,Mạch điện & PCB,Jumper & Connector
+P00413,C111,SC1116,Thiết bị âm thanh,Bộ lọc âm thanh
+P00415,C104,SC1041,Cảm biến & Đo lường,Cảm biến nhiệt độ
+P00416,C106,SC1069,Thiết bị truyền thông,Module CAN Bus
+P00417,C105,SC1056,Công cụ phát triển,Máy hiện sóng
+P00418,C103,SC1031,Linh kiện chủ động,Diode
+P00420,C106,SC1062,Thiết bị truyền thông,Module Bluetooth
+P00421,C109,SC1100,Linh kiện quang điện tử,Bộ phát hiện quang
+P00424,C103,SC1040,Linh kiện chủ động,Bộ dao động
+P00426,C101,SC1014,Linh kiện vi xử lý,STM32
+P00427,C104,SC1048,Cảm biến & Đo lường,Cảm biến gia tốc
+P00428,C110,SC1108,Linh kiện cơ điện tử,Trục & Ổ trục
+P00429,C103,SC1031,Linh kiện chủ động,Diode
+P00432,C105,SC1059,Công cụ phát triển,Công cụ thiết kế PCB
+P00434,C102,SC1024,Linh kiện thụ động,Biến trở
+P00435,C111,SC1111,Thiết bị âm thanh,Loa
+P00436,C104,SC1044,Cảm biến & Đo lường,Cảm biến ánh sáng
+P00437,C104,SC1050,Cảm biến & Đo lường,Cảm biến hồng ngoại
+P00438,C106,SC1070,Thiết bị truyền thông,Module Z-Wave
+P00442,C113,SC1133,Dụng cụ điện tử,Nhíp
+P00443,C104,SC1043,Cảm biến & Đo lường,Cảm biến chuyển động
+P00445,C114,SC1142,Phụ kiện robot,Bánh xe robot
+P00449,C104,SC1044,Cảm biến & Đo lường,Cảm biến ánh sáng
+P00457,C111,SC1112,Thiết bị âm thanh,Micro
+P00460,C107,SC1076,Mạch điện & PCB,Ốc vít & Spacer
+P00461,C108,SC1081,Nguồn điện & Pin,Adapter nguồn
+P00462,C103,SC1031,Linh kiện chủ động,Diode
+P00463,C106,SC1061,Thiết bị truyền thông,Module WiFi
+P00465,C114,SC1141,Phụ kiện robot,Khung robot
+P00468,C108,SC1082,Nguồn điện & Pin,Pin Lithium
+P00469,C105,SC1051,Công cụ phát triển,Kit phát triển
+P00470,C105,SC1054,Công cụ phát triển,Logic analyzer
+P00471,C105,SC1051,Công cụ phát triển,Kit phát triển
+P00473,C103,SC1035,Linh kiện chủ động,Mosfet
+P00475,C102,SC1023,Linh kiện thụ động,Cuộn cảm
+P00477,C108,SC1082,Nguồn điện & Pin,Pin Lithium
+P00479,C109,SC1099,Linh kiện quang điện tử,LED Driver
+P00482,C114,SC1141,Phụ kiện robot,Khung robot
+P00484,C104,SC1045,Cảm biến & Đo lường,Cảm biến từ trường
+P00488,C104,SC1047,Cảm biến & Đo lường,Cảm biến khí
+P00492,C108,SC1085,Nguồn điện & Pin,Bộ sạc pin
+P00495,C106,SC1063,Thiết bị truyền thông,Module Zigbee
+P00496,C114,SC1142,Phụ kiện robot,Bánh xe robot
+P00498,C113,SC1132,Dụng cụ điện tử,Thiếc hàn
+P00499,C112,SC1122,Thiết bị IoT,Cảm biến thông minh
+P00500,C111,SC1117,Thiết bị âm thanh,Jack âm thanh
