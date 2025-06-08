@@ -50,3 +50,4 @@ def recommend_products(model, df, user_id_str, user_encoder, item_encoder, top_k
         recommended.extend(additional)
 
     return recommended 
+

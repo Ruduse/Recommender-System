@@ -15,6 +15,8 @@ from utils.model import build_ncf_model, prepare_data, train_model
 from utils.recommender import recommend_products
 from utils.visualizer import plot_training_history, plot_model_comparison
 
+
+
 # Kết nối MongoDB
 db = connect_mongodb()
 if db is None:
@@ -66,7 +68,7 @@ plot_training_history(history)
 plot_model_comparison()
 
 # Hàm gợi ý
-def recommend(user_id_str, top_k=10):
+def recommend(user_id_str, top_k=30):
     return recommend_products(model, df, user_id_str, user_encoder, item_encoder, top_k)
 
 # Gợi ý thử
@@ -117,7 +119,6 @@ def evaluate_precision_recall_at_k(k=5):
 
     return avg_precision, avg_recall
 
-# ====== Gọi hàm đánh giá và in kết quả ======
 precision_at_5, recall_at_5 = evaluate_precision_recall_at_k(k=5)
 print(f"\n🔍 Precision@5: {precision_at_5:.4f}")
 print(f"🔁 Recall@5: {recall_at_5:.4f}")
@@ -159,7 +160,7 @@ def train_model_scheduled():
     print(f"=== Hoàn thành tái huấn luyện mô hình lúc {datetime.now()} ===")
 
 # Lên lịch chạy mỗi tuần
-schedule.every().monday.at("00:00").do(train_model_scheduled)
+schedule.every().sunday.at("18:55").do(train_model_scheduled)
 
 # Vòng lặp chạy schedule
 print("Đã lên lịch tái huấn luyện mô hình mỗi thứ 2 lúc 00:00")

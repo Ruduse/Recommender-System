@@ -12,7 +12,7 @@ def clean_data(df_reviews, df_products):
     
     # Xử lý dữ liệu products
     df_products['product_id'] = df_products['_id'].apply(str)
-    df_products['category_id'] = df_products['category'].apply(
+    df_products['category_id'] = df_products['categoryId'].apply(
         lambda x: x.get('$oid') if isinstance(x, dict) else str(x)
     )
     df_products = df_products.dropna(subset=['product_id', 'category_id'])

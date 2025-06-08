@@ -51,7 +51,7 @@ products = list(db["products"].find({}, {
     "_id": 1,
     "nameProduct": 1,
     "imageUrl": 1,
-    "category": 1,
+    "categoryId": 1,
     "price": 1,
     "newPrice": 1,
     "quantity": 1
@@ -68,7 +68,7 @@ df_reviews["timestamp"] = pd.to_datetime(df_reviews["createdAt"])
 
 # Chuẩn hóa dữ liệu products
 df_products["product_id"] = df_products["_id"].astype(str)
-df_products["category_id"] = df_products["category"].apply(
+df_products["category_id"] = df_products["categoryId"].apply(
     lambda x: str(x.get("$oid")) if isinstance(x, dict) else str(x)
 )
 df_products["price"] = df_products["newPrice"].fillna(df_products["price"]).apply(
@@ -106,10 +106,10 @@ def get_popular_list() -> List[str]:
 
 @lru_cache(maxsize=1)
 def get_category_map() -> Dict:
-    products = db["products"].find({}, {"_id": 1, "category": 1})
+    products = db["products"].find({}, {"_id": 1, "categoryId": 1})
     df_products = pd.DataFrame(products)
     df_products["product_id"] = df_products["_id"].astype(str)
-    df_products["category_id"] = df_products["category"].apply(
+    df_products["category_id"] = df_products["categoryId"].apply(
         lambda x: str(x.get("$oid")) if isinstance(x, dict) else str(x)
     )
     df_products["item_enc"] = item_encoder.transform(df_products["product_id"])

@@ -25,6 +25,6 @@ def get_products(db):
     """Lấy dữ liệu sản phẩm từ MongoDB"""
     products = list(db["products"].find({}, {
         "_id": 1,
-        "category": 1,
+        "categoryId": 1,
     }))
     return pd.DataFrame(products) 
