@@ -14,6 +14,7 @@ import time
 from collections import Counter
 from datetime import datetime, timedelta
 
+
 # 1) Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -141,6 +142,9 @@ class RecommendationItem(BaseModel):
 class RecommendationResponse(BaseModel):
     recommendations: List[RecommendationItem]
 
+
+
+
 # 7) Rule-based filters
 def get_purchased_items(user_id: str) -> Set[str]:
     return set(df[df["user_id"] == user_id]["product_id"].unique())
@@ -166,7 +170,7 @@ def apply_price_diversity(recs: List[Dict], price_ranges: List[tuple] = [(0, 100
         price = rec["price"]
         for i, (min_price, max_price) in enumerate(price_ranges):
             if min_price <= price < max_price:
-                if price_range_counts[i] < 4:
+                if price_range_counts[i] < 5:
                     filtered_recs.append(rec)
                     price_range_counts[i] += 1
                 break
@@ -272,7 +276,57 @@ def get_recommendation(req: RecommendRequest):
     except Exception as e:
         logger.error(f"Error in recommendation: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+@app.get("/new-products", response_model=RecommendationResponse)
+def get_new_products():
+    try:
+        # Lấy sản phẩm mới trong 30 ngày gần đây
+        recent_products = get_recent_products(days=30)
+        recs = []
+        
+        for pid in recent_products:
+            product_info = df_products[df_products["product_id"] == pid].iloc[0]
+            recs.append({
+                "product_id": pid,
+                "predicted_rating": 4.5,  # Rating mặc định cho sản phẩm mới
+                "category_id": product_info["category_id"],
+                "price": product_info["price"],
+                "name_product": product_info["nameProduct"],
+                "image_url": product_info["imageUrl"][0],
+                "quantity": product_info["quantity"]
+            })
+        
+        # Sắp xếp theo thời gian mới nhất
+        recs = sorted(recs, key=lambda x: x["predicted_rating"], reverse=True)[:10]
+        return {"recommendations": recs}
+    except Exception as e:
+        logger.error(f"Error in new products: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/best-selling-products", response_model=RecommendationResponse)
+def get_best_selling_products():
+    try:
+        # Đếm số lượng đơn hàng cho mỗi sản phẩm
+        product_counts = df["product_id"].value_counts()
+        # Lấy top 10 sản phẩm bán chạy nhất
+        best_selling = product_counts.head(10).index.tolist()
+        
+        recs = []
+        for pid in best_selling:
+            product_info = df_products[df_products["product_id"] == pid].iloc[0]
+            recs.append({
+                "product_id": pid,
+                "predicted_rating": 4.5,  # Rating mặc định cho sản phẩm bán chạy
+                "category_id": product_info["category_id"],
+                "price": product_info["price"],
+                "name_product": product_info["nameProduct"],
+                "image_url": product_info["imageUrl"][0],
+                "quantity": product_info["quantity"]
+            })
+        
+        return {"recommendations": recs}
+    except Exception as e:
+        logger.error(f"Error in best selling products: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 # 10) Run dev server
 if __name__ == "__main__":
     import uvicorn
